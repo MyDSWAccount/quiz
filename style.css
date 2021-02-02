@@ -1,14 +1,14 @@
 body {
   background-color: LightBlue;
 
-p.disp {
-  display: none;
-}
-
 h1 {
   color: DarkGreen;
 }
 
 p {
   color: DarkGreen;
+}
+  
+p.disp {
+  display: none;
 }
