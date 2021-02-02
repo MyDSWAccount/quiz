@@ -5,5 +5,21 @@ $(document).ready(function() {
         });
         $("#q2").click(function(){
                 $("#a2").show();
+                $("#q3").show();
+        });
+        $("#q3").click(function(){
+                $("#a3").show();
+                $("#q4").show();
+        });
+        $("#q4").click(function(){
+                $("#a4").show();
+                $("#q5").show();
+        });
+        $("#q5").click(function(){
+                $("#a5").show();
+                $("#q6").show();
+        });
+        $("#q6").click(function(){
+                $("#a6").show();
         });
 });
