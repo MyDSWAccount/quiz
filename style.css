@@ -6,10 +6,10 @@ h1 {
   color: grey;
 }
 
-p {
+div {
   color: darkgreen;
 }
 
-p.disp {
+div.disp {
   display: none;
 }
