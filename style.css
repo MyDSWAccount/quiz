@@ -1,13 +1,5 @@
 body {
   background-color: lightblue;
-
-h1 {
-  color: darkgreen;
-}
-
-p {
-  color: darkgreen;
-}
   
 p.disp {
   display: none;
