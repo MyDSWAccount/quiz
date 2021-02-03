@@ -1,12 +1,12 @@
 body {
-  background-color: LightBlue;
+  background-color: lightblue;
 
 h1 {
-  color: DarkGreen;
+  color: darkgreen;
 }
 
 p {
-  color: DarkGreen;
+  color: darkgreen;
 }
   
 p.disp {
