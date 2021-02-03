@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
-  
+}
+
 p.disp {
   display: none;
 }
