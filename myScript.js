@@ -8,6 +8,6 @@ $(document).ready(function() {
         */
         $('div').click(function() { 
         var id = $(this).attr('id');
-        console.log(id);
+        console.log(id).slice(-1);
         });
 });
