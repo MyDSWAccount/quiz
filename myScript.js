@@ -6,7 +6,7 @@ $(document).ready(function() {
                 var nextqid = "q" + (parseInt(num, 10) + 1);
                 console.log(nextqid);
                 console.log(aid);
-                $(aid).show();
-                $(nextqid).show();
+                $("#a1").show();
+                /*$(nextqid).show();*/
         });
 });
