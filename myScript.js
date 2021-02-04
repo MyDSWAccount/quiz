@@ -8,7 +8,10 @@ $(document).ready(function() {
         */
         $('div').click(function() { 
         var qid = $(this).attr('id');
-        var aid = "a" + qid.slice(-1);
-        console.log(aid);
+        var num = qid.slice(-1);
+        var aid = "a" + num;
+        var nextqid = "q" + (parseInt(num, 10) + 1);
+        $(aid).show();
+        $(nextqid).show();
         });
 });
