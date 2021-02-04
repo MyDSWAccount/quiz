@@ -7,7 +7,7 @@ $(document).ready(function() {
         });
         */
         $('div').click(function() { 
-        var id = text($(this).attr('id'));
+        var id = $(this).text(attr('id'));
         id.slice(-1);
         console.log(id)
         });
