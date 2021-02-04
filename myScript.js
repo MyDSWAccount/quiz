@@ -7,8 +7,8 @@ $(document).ready(function() {
         });
         */
         $('div').click(function() { 
-        var id = $(this).text(attr('id'));
-        id.slice(-1);
-        console.log(id)
+        var qid = $(this).attr('id');
+        var aid = qid.slice(-1);
+        console.log(aid);
         });
 });
